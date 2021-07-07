@@ -7,7 +7,7 @@ package com.planning.demo;
 public class HelloSpringImpl implements HelloSpring{
 
 	@Override
-	public void run() {
-		System.out.println("run~");
+	public String run() {
+		return "run";
 	}
 }
